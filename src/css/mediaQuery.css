@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+    .appSVG, .loginSVG {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .account button, 
+    .menu,
+    .banner img,
+    .imgContainer span,
+    .buttonsContainer button p {
+        display: none;
+    }
+
+    .menu2 {
+        display: block;
+    }
+
+    .banner {
+        height: 70%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4rem 1fr;
+        width: 100%;
+    }
+
+    .banner .title {
+        font-size: 2rem;
+    }
+
+    .containerSearch form input[type="search"] {
+        width: 100%;
+    }
+}

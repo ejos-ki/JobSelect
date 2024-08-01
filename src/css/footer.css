@@ -1,0 +1,78 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-inline: 11px;
+    margin-top: 15rem;
+    row-gap: 3rem;
+    border-bottom: solid black;
+    margin-inline: 2rem;
+    padding-bottom: 5rem;
+}
+
+.box1, .box2, .box3, .box4 {
+    padding-left: 10%;
+    transition: all 0.5s ease;
+}
+
+.copyRight {
+    height: auto;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 180px);
+
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    position: relative;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-block: 1rem;
+    overflow: hidden;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0 0 0 12px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.footer li:hover {
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: georgian;
+    font-size: 0.9rem;
+}
+
+.footer li:active {
+    color: red;
+}
+
+.footer h4 {
+    font-size: 1.12em;
+    cursor: pointer;
+}
+
+.copyRight .logo {
+    position: absolute;
+    opacity: 0.2;
+
+    right: 0;
+}
+
+.copyRight .tag {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.copyRight .tag span {
+    font-size: 12px;
+    margin-left: -4px;
+}

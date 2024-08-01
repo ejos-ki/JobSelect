@@ -1,0 +1,50 @@
+.containerSearch {
+    height: 4rem;
+    margin-bottom: 40px;
+}
+
+.containerSearch form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSearch form input[type="search"] {
+    width: 50%;
+    height: 70%;
+    border: none;
+    background-color: rgba(97, 198, 95, 0.6);;
+    border: 1px solid green;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+}
+
+.containerSearch form input[type="search"]::placeholder {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px white;
+    opacity: 0.7;
+}
+
+.containerSearch form input[type="search"]:focus {
+    outline: 2px solid green;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+
+.containerSearch form input[type="search"]:focus + button {
+    box-shadow: 1px 1px 5px black;
+    outline: 2px solid green;
+    border: none;
+}
+
+.containerSearch form button {
+    height: 70%;
+    background-color: gold;
+    border: 1px solid green;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-inline: 20px;
+}

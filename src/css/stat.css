@@ -1,0 +1,77 @@
+.statContainer {
+    margin-top: 10rem;
+    margin-inline: 10%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-rows: auto;
+    gap: 2rem 1rem;
+    position: relative;
+    padding-bottom: 8rem;
+    border-bottom: solid white;
+}
+
+.statContainer h2 {
+    position: absolute;
+    top: -2rem;
+    margin: 0;
+    text-wrap: nowrap;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+}
+
+.statContainer .graph {
+    background-color: rgba(195, 183, 13, 0.5);
+    border-radius: 10px;
+    min-height: 200px
+}
+
+
+.statContainer span p {
+    padding-left: 5px;
+}
+
+.statContainer span {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem 1rem;
+}
+
+.statContainer .description select {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem 0 1rem 0;
+    padding: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.statContainer .description span div {
+    padding-inline: 12px;
+    text-align: justify;
+}
+
+.statContainer .description span div h5 {
+    margin: 0;
+    padding-block: 5px;
+    font-size: 15px;
+    margin-left: -10px;
+}
+
+.statContainer .description, .statContainer .graph {
+    transition: all 0.5s ease;
+}
+
+.statContainer .graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    min-height: 15rem;
+}

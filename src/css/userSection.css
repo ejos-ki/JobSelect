@@ -1,0 +1,73 @@
+.userOuterContainer {
+    height: auto;
+    margin-top: 5rem;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(23, 145, 154, 0.6);
+    z-index: 1;
+    position: relative;
+}
+
+.userInnerContainer {
+    padding-block: 2rem;
+    margin-inline: 15%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
+    border-top: solid white;
+    border-bottom: solid white;
+}
+
+.jobFinderAcc, .employerAcc {
+    min-height: 250px;
+    text-align: center;
+}
+
+.userInnerContainer p {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.userOuterContainer a {
+    text-decoration: none;
+    color: rgb(55, 12, 164);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.userOuterContainer a p:hover {
+    color: red;
+}
+
+.userOuterContainer a p:active {
+    font-size: 1.1rem;
+}
+
+.userOuterContainer a p:hover + span {
+    color: red;
+}
+
+.userOuterContainer a p:active + span{
+    font-size: 1.1rem;
+}
+
+.userOuterContainer .logoUp {
+    position: absolute;
+    top: -3rem;
+    left: -2rem;
+    opacity: 0.1;
+    user-select: none;
+}
+
+.userOuterContainer .logoDown {
+    position: absolute;
+    right: -2rem;
+    bottom: -3rem;
+    opacity: 0.1;
+    user-select: none;
+}

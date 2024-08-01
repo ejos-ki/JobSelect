@@ -1,0 +1,45 @@
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    margin          : 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display         : grid;
+    justify-content : center;
+    overflow        : auto;
+
+}
+
+#root {
+    max-width : 1800px;
+    height    : 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width : thin;  
+    scrollbar-color : black white;
+}
+
+p {
+    margin : 0;
+    padding: 0;
+    display: inline-block;
+}
+
+sup {
+    margin     : 0;
+    padding    : 0px 0px 0px 5px;
+    font-size  : 0.6rem;
+    color      : white;
+    position   : absolute;
+    bottom     : -8px;
+    right      : 0px;
+    text-shadow: 1px 1px 5px black;
+}
+
+::selection {
+    background-color: black; 
+    color: white; 
+    text-decoration: none;  
+    text-shadow: none;  
+}

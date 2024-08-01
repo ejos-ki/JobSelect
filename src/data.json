@@ -1,0 +1,31 @@
+{
+    "municipalities": [
+        "Bulusan",
+        "Bulan",
+        "Barcelona",
+        "Casiguran",
+        "Castilla",
+        "Donsol",
+        "Gubat",
+        "Irosin",
+        "Juban",
+        "Magallanes",
+        "Matnog",
+        "Pilar",
+        "Prieto Diaz",
+        "Santa Magdalena",
+        "Sorsogon City" 
+    ],
+
+    "brands": [
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"],
+            ["brand1.svg", "Brand name"]
+    ]
+}
